@@ -5,7 +5,6 @@
  */
 uint fib(const uint n) {    // nth fib number
     if (n < 2) {
-        delete[] data;
         return n;
     }
     uint *data = new uint[n + 1];
