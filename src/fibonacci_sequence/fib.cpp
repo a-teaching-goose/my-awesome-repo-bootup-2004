@@ -4,10 +4,10 @@
  * [0, 1, 1, 2, 3, 5, ....]
  */
 uint fib(const uint n) {    // nth fib number
-    uint *data = new uint[n + 1];
     if (n < 2) {
         return n;
     }
+    uint *data = new uint[n + 1];
 
     data[0] = 0;
     data[1] = 1;
