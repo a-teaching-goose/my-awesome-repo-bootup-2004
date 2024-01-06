@@ -16,6 +16,7 @@ uint fib(const uint n) {    // nth fib number
         data[i] = data[i - 1] + data[i - 2];
     }
 
-    return data[n];
-
+    uint result = data[n];
+    delete[]data;
+    return result;
 }
